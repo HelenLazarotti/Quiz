@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+#quiz{
+    margin-top: 10%;
+}
+button{
+    width: 200px;
+    padding: 10px;
+    margin-bottom: 2%;
+    display: block;/*pra deixar um botão em baixo do outro fixo*/
+    
+}
+.resposta{
+    margin: auto auto;/*p ficar alinhado*/
+    margin-bottom: 2%;
+    border: none;
+}
+
+.resposta:hover{
+    background-color: yellow;
+    
+}
+
+.resposta.selecionada{
+    background-color: rgb(63, 188, 204);
+}
+
+.errada{
+    background-color: rgb(209, 36, 36);
+    color: white;
+}
+.correta{
+    background-color: greenyellow;
+    animation: piscaCerto 1s infinite;
+}
+@keyframes piscaCerto{
+    /*serve p ficar piscando*/
+    0%, 49%{
+        background-color: green;
+    }
+    50%, 100%{
+        background-color: rgb(109, 167, 23);
+    }
+}
+
+#confirmar{
+    margin: auto auto;
+    background-color: green;
+    border: none;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+}
+#confirmar:hover{
+    background-color: rgb(56, 163, 56);
+}
+#status{
+    padding: 10%;
+    
+}
+#novoJogo{
+    background-color: black;
+    color: white;
+    margin: auto auto;
+    border-radius: 8px;
+}
+
+.oculto{
+    display: none;
+}
