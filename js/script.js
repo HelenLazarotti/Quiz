@@ -46,7 +46,7 @@ aleatorio = Number(aleatorio);
 
 
 
-if(!perguntasFeitas.includes()){
+if(!perguntasFeitas.includes(aleatorio)){
 //significa: se não está nas perguntasFeitas.incluido()
 
     //colocar como pergunta feita:
