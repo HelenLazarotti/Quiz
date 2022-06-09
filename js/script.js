@@ -95,8 +95,8 @@ if(!perguntasFeitas.includes(aleatorio)){
         $("#mensagem").html("Você venceu! Acertou todas perguntas.")
 
         $("#status").removeClass("oculto")
+        }
     }
-}
 
 }
 
