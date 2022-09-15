@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
 *{
     box-sizing: border-box;
 }
@@ -13,7 +14,9 @@ button{
     width: 200px;
     padding: 10px;
     margin-bottom: 2%;
-    display: block;/*pra deixar um botão em baixo do outro fixo*/
+    display: block;
+    background: linear-gradient(to right, #000000, #800080, #000000);
+    font-family: 'Neucha', cursive;
     
 }
 .resposta{
